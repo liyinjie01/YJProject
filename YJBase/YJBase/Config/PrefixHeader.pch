@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  YJBase
+//
+//  Created by lyj on 2021/2/24.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "YJBaseVC.h"
+#import <Masonry/Masonry.h>
+
+#endif /* PrefixHeader_pch */

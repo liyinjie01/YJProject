@@ -3,19 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2C94402525E6445A006334A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94402425E6445A006334A3 /* AppDelegate.m */; };
 		2C94402825E6445A006334A3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94402725E6445A006334A3 /* SceneDelegate.m */; };
-		2C94402B25E6445A006334A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94402A25E6445A006334A3 /* ViewController.m */; };
 		2C94402E25E6445A006334A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94402C25E6445A006334A3 /* Main.storyboard */; };
 		2C94403025E6445B006334A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C94402F25E6445B006334A3 /* Assets.xcassets */; };
 		2C94403325E6445B006334A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C94403125E6445B006334A3 /* LaunchScreen.storyboard */; };
 		2C94403625E6445B006334A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94403525E6445B006334A3 /* main.m */; };
 		2C94404025E6445B006334A3 /* YJBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94403F25E6445B006334A3 /* YJBaseTests.m */; };
 		2C94404B25E6445B006334A3 /* YJBaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94404A25E6445B006334A3 /* YJBaseUITests.m */; };
+		2C94406925E646D5006334A3 /* YJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94406825E646D5006334A3 /* YJTabBarController.m */; };
+		2C94407A25E64786006334A3 /* YJHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94407925E64786006334A3 /* YJHomeVC.m */; };
+		2C94408825E647D4006334A3 /* YJBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94408725E647D4006334A3 /* YJBaseVC.m */; };
+		2C94409825E6484A006334A3 /* YJMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C94409725E6484A006334A3 /* YJMineVC.m */; };
+		2C9440B325E64AA2006334A3 /* YJNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9440B225E64AA2006334A3 /* YJNavigationVC.m */; };
+		6152072D7D2231561A0F24E4 /* Pods_YJBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA99B647577F2800D0E3548 /* Pods_YJBase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +46,6 @@
 		2C94402425E6445A006334A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2C94402625E6445A006334A3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		2C94402725E6445A006334A3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2C94402925E6445A006334A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2C94402A25E6445A006334A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2C94402D25E6445A006334A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C94402F25E6445B006334A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C94403225E6445B006334A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,20 @@
 		2C94404625E6445B006334A3 /* YJBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C94404A25E6445B006334A3 /* YJBaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJBaseUITests.m; sourceTree = "<group>"; };
 		2C94404C25E6445B006334A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C94406725E646D5006334A3 /* YJTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJTabBarController.h; sourceTree = "<group>"; };
+		2C94406825E646D5006334A3 /* YJTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJTabBarController.m; sourceTree = "<group>"; };
+		2C94407825E64786006334A3 /* YJHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJHomeVC.h; sourceTree = "<group>"; };
+		2C94407925E64786006334A3 /* YJHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJHomeVC.m; sourceTree = "<group>"; };
+		2C94408625E647D4006334A3 /* YJBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJBaseVC.h; sourceTree = "<group>"; };
+		2C94408725E647D4006334A3 /* YJBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJBaseVC.m; sourceTree = "<group>"; };
+		2C94409625E6484A006334A3 /* YJMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJMineVC.h; sourceTree = "<group>"; };
+		2C94409725E6484A006334A3 /* YJMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJMineVC.m; sourceTree = "<group>"; };
+		2C94409F25E648A7006334A3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2C9440B125E64AA2006334A3 /* YJNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJNavigationVC.h; sourceTree = "<group>"; };
+		2C9440B225E64AA2006334A3 /* YJNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJNavigationVC.m; sourceTree = "<group>"; };
+		4FD41CAD3DB8F713DC35DC42 /* Pods-YJBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJBase.release.xcconfig"; path = "Target Support Files/Pods-YJBase/Pods-YJBase.release.xcconfig"; sourceTree = "<group>"; };
+		5CA99B647577F2800D0E3548 /* Pods_YJBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E0396D40F0F15C86890BC6 /* Pods-YJBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJBase.debug.xcconfig"; path = "Target Support Files/Pods-YJBase/Pods-YJBase.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6152072D7D2231561A0F24E4 /* Pods_YJBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		189B31D27894FC239DEC9B3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83E0396D40F0F15C86890BC6 /* Pods-YJBase.debug.xcconfig */,
+				4FD41CAD3DB8F713DC35DC42 /* Pods-YJBase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2C94401725E64459006334A3 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +115,8 @@
 				2C94403E25E6445B006334A3 /* YJBaseTests */,
 				2C94404925E6445B006334A3 /* YJBaseUITests */,
 				2C94402125E64459006334A3 /* Products */,
+				189B31D27894FC239DEC9B3C /* Pods */,
+				543736DAD02A234C87BEADBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +133,11 @@
 		2C94402225E64459006334A3 /* YJBase */ = {
 			isa = PBXGroup;
 			children = (
-				2C94402325E6445A006334A3 /* AppDelegate.h */,
-				2C94402425E6445A006334A3 /* AppDelegate.m */,
-				2C94402625E6445A006334A3 /* SceneDelegate.h */,
-				2C94402725E6445A006334A3 /* SceneDelegate.m */,
-				2C94402925E6445A006334A3 /* ViewController.h */,
-				2C94402A25E6445A006334A3 /* ViewController.m */,
+				2C94405E25E64595006334A3 /* AppDelegate */,
+				2C94406325E645E4006334A3 /* Tools */,
+				2C94406225E645B3006334A3 /* Classes */,
+				2C94406425E64632006334A3 /* Config */,
+				2C94406525E64648006334A3 /* Lib */,
 				2C94402C25E6445A006334A3 /* Main.storyboard */,
 				2C94402F25E6445B006334A3 /* Assets.xcassets */,
 				2C94403125E6445B006334A3 /* LaunchScreen.storyboard */,
@@ -137,6 +165,192 @@
 			path = YJBaseUITests;
 			sourceTree = "<group>";
 		};
+		2C94405E25E64595006334A3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2C94402325E6445A006334A3 /* AppDelegate.h */,
+				2C94402425E6445A006334A3 /* AppDelegate.m */,
+				2C94402625E6445A006334A3 /* SceneDelegate.h */,
+				2C94402725E6445A006334A3 /* SceneDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2C94406225E645B3006334A3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C94408125E6478B006334A3 /* Base */,
+				2C94408F25E647EC006334A3 /* Mine */,
+				2C94407325E64736006334A3 /* Home */,
+				2C94406625E64674006334A3 /* TabbarVC */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2C94406325E645E4006334A3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2C94406425E64632006334A3 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				2C94409F25E648A7006334A3 /* PrefixHeader.pch */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		2C94406525E64648006334A3 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		2C94406625E64674006334A3 /* TabbarVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C94406725E646D5006334A3 /* YJTabBarController.h */,
+				2C94406825E646D5006334A3 /* YJTabBarController.m */,
+			);
+			path = TabbarVC;
+			sourceTree = "<group>";
+		};
+		2C94407325E64736006334A3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2C94407425E64747006334A3 /* Controller */,
+				2C94407725E6475D006334A3 /* Model */,
+				2C94407625E64755006334A3 /* ViewModel */,
+				2C94407525E6474F006334A3 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2C94407425E64747006334A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C94407825E64786006334A3 /* YJHomeVC.h */,
+				2C94407925E64786006334A3 /* YJHomeVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C94407525E6474F006334A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C94407625E64755006334A3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2C94407725E6475D006334A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C94408125E6478B006334A3 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2C94408525E647BD006334A3 /* ViewModel */,
+				2C94408425E647B3006334A3 /* View */,
+				2C94408325E647A4006334A3 /* Model */,
+				2C94408225E64798006334A3 /* Controller */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2C94408225E64798006334A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C94408625E647D4006334A3 /* YJBaseVC.h */,
+				2C94408725E647D4006334A3 /* YJBaseVC.m */,
+				2C9440B125E64AA2006334A3 /* YJNavigationVC.h */,
+				2C9440B225E64AA2006334A3 /* YJNavigationVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C94408325E647A4006334A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C94408425E647B3006334A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C94408525E647BD006334A3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2C94408F25E647EC006334A3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2C94409525E64828006334A3 /* Controller */,
+				2C94409225E64804006334A3 /* View */,
+				2C94409125E647FE006334A3 /* ViewModel */,
+				2C94409025E647F6006334A3 /* Model */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		2C94409025E647F6006334A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C94409125E647FE006334A3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2C94409225E64804006334A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C94409525E64828006334A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C94409625E6484A006334A3 /* YJMineVC.h */,
+				2C94409725E6484A006334A3 /* YJMineVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		543736DAD02A234C87BEADBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CA99B647577F2800D0E3548 /* Pods_YJBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +358,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C94404F25E6445B006334A3 /* Build configuration list for PBXNativeTarget "YJBase" */;
 			buildPhases = (
+				E6744B0973BC4E9992B453A8 /* [CP] Check Pods Manifest.lock */,
 				2C94401C25E64459006334A3 /* Sources */,
 				2C94401D25E64459006334A3 /* Frameworks */,
 				2C94401E25E64459006334A3 /* Resources */,
+				EC5883191CE6001ABD1DFC36 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,6 +415,7 @@
 		2C94401825E64459006334A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YJ;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					2C94401F25E64459006334A3 = {
@@ -261,15 +478,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E6744B0973BC4E9992B453A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YJBase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC5883191CE6001ABD1DFC36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YJBase/Pods-YJBase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YJBase/Pods-YJBase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YJBase/Pods-YJBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C94401C25E64459006334A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C94402B25E6445A006334A3 /* ViewController.m in Sources */,
+				2C94408825E647D4006334A3 /* YJBaseVC.m in Sources */,
+				2C94407A25E64786006334A3 /* YJHomeVC.m in Sources */,
 				2C94402525E6445A006334A3 /* AppDelegate.m in Sources */,
 				2C94403625E6445B006334A3 /* main.m in Sources */,
+				2C94406925E646D5006334A3 /* YJTabBarController.m in Sources */,
+				2C94409825E6484A006334A3 /* YJMineVC.m in Sources */,
 				2C94402825E6445A006334A3 /* SceneDelegate.m in Sources */,
+				2C9440B325E64AA2006334A3 /* YJNavigationVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,11 +701,15 @@
 		};
 		2C94405025E6445B006334A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E0396D40F0F15C86890BC6 /* Pods-YJBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AMM5B9LNVA;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YJBase/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = YJBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,11 +722,15 @@
 		};
 		2C94405125E6445B006334A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD41CAD3DB8F713DC35DC42 /* Pods-YJBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AMM5B9LNVA;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YJBase/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = YJBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
