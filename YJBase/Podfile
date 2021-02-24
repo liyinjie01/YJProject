@@ -4,7 +4,15 @@
 target 'YJBase' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  inhibit_all_warnings!
 pod 'Masonry'
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'ReactiveObjC', '3.1.0'
+pod 'JLRoutes', '2.0.5'
+pod 'YYKit'
 
+pod 'IQKeyboardManager', '6.2.0'
+pod 'LSSafeProtector'
+#pod 'Realm'
 end
