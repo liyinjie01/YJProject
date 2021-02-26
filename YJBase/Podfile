@@ -14,5 +14,9 @@ pod 'YYKit'
 
 pod 'IQKeyboardManager', '6.2.0'
 pod 'LSSafeProtector'
+pod 'ZFPlayer'
+pod 'ZFPlayer/ControlView'
+pod 'ZFPlayer/AVPlayer'
+pod 'ZFPlayer/ijkplayer'
 #pod 'Realm'
 end

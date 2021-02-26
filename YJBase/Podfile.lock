@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - IJKMediaFramework (0.1.5)
   - IQKeyboardManager (6.2.0)
   - JLRoutes (2.0.5)
   - LSSafeProtector (2.1.4):
@@ -34,6 +35,16 @@ PODS:
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
+  - ZFPlayer (4.0.1):
+    - ZFPlayer/Core (= 4.0.1)
+  - ZFPlayer/AVPlayer (4.0.1):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (4.0.1):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.0.1)
+  - ZFPlayer/ijkplayer (4.0.1):
+    - IJKMediaFramework
+    - ZFPlayer/Core
 
 DEPENDENCIES:
   - AFNetworking
@@ -44,10 +55,15 @@ DEPENDENCIES:
   - ReactiveObjC (= 3.1.0)
   - SDWebImage
   - YYKit
+  - ZFPlayer
+  - ZFPlayer/AVPlayer
+  - ZFPlayer/ControlView
+  - ZFPlayer/ijkplayer
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - IJKMediaFramework
     - IQKeyboardManager
     - JLRoutes
     - LSSafeProtector
@@ -55,9 +71,11 @@ SPEC REPOS:
     - ReactiveObjC
     - SDWebImage
     - YYKit
+    - ZFPlayer
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
   IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
   JLRoutes: 2a5ee61d739b51a98c9d8112bee5149a19de8854
   LSSafeProtector: b2e6c263079d365967cc4d19817b38291b5fcbe6
@@ -65,7 +83,8 @@ SPEC CHECKSUMS:
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
   SDWebImage: e378178472b735e84b007bfb55514c97948a0598
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
 
-PODFILE CHECKSUM: f3191dc4b17c1fb60c75b5fb2fc70b1118d1c418
+PODFILE CHECKSUM: 9c727d2a21957c6fe5defcc172e996b0df20f112
 
 COCOAPODS: 1.8.4
